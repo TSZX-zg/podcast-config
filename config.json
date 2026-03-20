@@ -2,18 +2,39 @@
   "version": "1.0.0",
   "name": "播客精选",
   "description": "简洁好用的播客收听应用",
-  "updateUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/config.json",
+  "updateUrl": "https://raw.githubusercontent.com/TSZX-zg/podcast-config/main/config.json",
   "podcasts": [
     {
       "id": "1",
-      "title": "示例播客",
-      "author": "示例作者",
-      "description": "这是一个示例播客，替换成你自己的内容",
-      "coverUrl": "https://example.com/cover.jpg",
-      "feedUrl": "https://example.com/feed.xml",
+      "title": "科技男爵",
+      "author": "科技男爵",
+      "description": "解读科技趋势，聊聊互联网背后的故事",
+      "coverUrl": "https://files.mime.tea4.com/topic/podcast/cover/20250717102719.jpg",
+      "feedUrl": "https://feeds.mime.tea4.com/kejinpule",
       "category": "科技",
       "featured": true
+    },
+    {
+      "id": "2",
+      "title": "故事FM",
+      "author": "故事FM"
+,
+      "description": "人人都是故事家，讲述普通人的真实故事",
+      "coverUrl": "https://files.mime.tea4.com/topic/podcast/cover/202203291058.jpg",
+      "feedUrl": "https://feeds.mime.tea4.com/storyfm",
+      "category": "故事",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "不正经人有正经想法",
+      "author": "不正经人",
+      "description": "一档不正经的播客，聊聊正经的事",
+      "coverUrl": "https://files.mime.tea4.com/topic/podcast/cover/202204201703.jpg",
+      "feedUrl": "https://feeds.mime.tea4.com/buzhengjing",
+      "category": "娱乐",
+      "featured": false
     }
   ],
-  "categories": ["全部", "科技", "商业", "教育", "娱乐", "健康", "新闻"]
+  "categories": ["全部", "科技", "故事", "娱乐", "商业", "教育", "健康"]
 }

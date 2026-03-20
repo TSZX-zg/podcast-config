@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "播客精选",
+  "description": "简洁好用的播客收听应用",
+  "updateUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/config.json",
+  "podcasts": [
+    {
+      "id": "1",
+      "title": "示例播客",
+      "author": "示例作者",
+      "description": "这是一个示例播客，替换成你自己的内容",
+      "coverUrl": "https://example.com/cover.jpg",
+      "feedUrl": "https://example.com/feed.xml",
+      "category": "科技",
+      "featured": true
+    }
+  ],
+  "categories": ["全部", "科技", "商业", "教育", "娱乐", "健康", "新闻"]
+}
